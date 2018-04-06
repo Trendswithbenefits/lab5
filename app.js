@@ -27,8 +27,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-  var multNum = (a*b);
-  return [a*b,'The product of ' + a + ' and ' + b + ' is ' + multNum];
+  var multNum = [a*b,'The product of ' + a + ' and ' + b + ' is ' + a*b + '.'];
+  return multNum;
 }
 
 // Here is the test for multiply(); uncomment it to run it
