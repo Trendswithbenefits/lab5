@@ -8,13 +8,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-
-function sum(a, b) {
-  var sumNum = [(a + b),'The sum of ' + a + ' and ' + b + ' is ' + (a + b) + '.'];
+function sum(a, b) { //eslint-disable-line
+  var multNum = [a+b,'The sum of ' + a + ' and ' + b + ' is ' + a+b + '.'];
   return sumNum;
 }
-
-sum(1,5);
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -31,7 +28,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -52,7 +49,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+  var 
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
